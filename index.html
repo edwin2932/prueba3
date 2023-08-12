@@ -1,90 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Login</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background-color: #1DA1F2; /* Fondo azul */
-      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Fuente de letra similar a la de Twitter */
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-    }
-
-    .login-container {
-      background-color: #fff;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-      max-width: 400px;
-      width: 90%;
-    }
-
-    .user-photo {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      background-color: #1DA1F2; /* Color azul similar a Twitter */
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #fff;
-      font-size: 24px;
-      font-weight: bold;
-      text-transform: uppercase;
-    }
-
-    .input-group {
-      margin: 20px 0;
-    }
-
-    .input-group label {
-      display: block;
-      font-weight: bold;
-      margin-bottom: 5px;
-    }
-
-    .input-group input {
-      width: 100%;
-      padding: 8px;
-      font-size: 16px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
-
-    .submit-button {
-      width: 100%;
-      padding: 10px;
-      font-size: 18px;
-      background-color: #1DA1F2; /* Color azul similar a Twitter */
-      color: #fff;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-
-    .submit-button:hover {
-      background-color: #0F8BF8; /* Color azul más oscuro al pasar el cursor */
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .dashboard-container {
+    background-color: #140606; /* Colores del Ministerio de Energía y Minas */
+    padding: 20px;
+    height: 100vh;
+    color: #ee1c0d;
+  }
+  .dashboard-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .dashboard-card {
+    background-color: #070101;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+</style>
+<title>Dashboard</title>
 </head>
 <body>
-  <div class="login-container">
-    <div class="user-photo">U</div>
-    <div class="input-group">
-      <label for="username">Usuario:</label>
-      <input type="text" id="username" name="username" placeholder="Nombre de usuario">
+  <div class="dashboard-container">
+    <div class="dashboard-header">
+      <h1>Panel de Control</h1>
+      <p>Bienvenido al Ministerio de Energía y Minas</p>
     </div>
-    <div class="input-group">
-      <label for="password">Contraseña:</label>
-      <input type="password" id="password" name="password" placeholder="Contraseña">
+    <div class="dashboard-card">
+      <h2>Resumen de Energía</h2>
+      <p>Aquí podrías mostrar información relevante sobre la producción de energía.</p>
     </div>
-    <button class="submit-button" type="submit">Iniciar sesión</button>
+    <div class="dashboard-card">
+      <h2>Minería</h2>
+      <p>Información sobre la producción minera y recursos naturales.</p>
+    </div>
+    <!-- Agrega más secciones de información según sea necesario -->
   </div>
 </body>
 </html>
+
+
+
+
+
